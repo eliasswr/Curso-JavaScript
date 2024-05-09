@@ -19,7 +19,7 @@ class Persona{
 
 class Empleado extends Persona{
     constructor(nombre, apellido, departamento){
-        super(nombre, apellido);//llamar al constructor de la clase padre
+        super(nombre, apellido);//"super" llamar al constructor de la clase padre
         this._departamento = departamento;
     }
     get departamento(){
